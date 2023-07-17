@@ -1,0 +1,21 @@
+name: Python_teaching
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn=1.*
+  - shap
+  - papermill
+  - pip
+ 
+  - pip:
+    - tqdm
+    - git+https://github.com/DanaJomar/PyALE@master
+variables:
+  JUPYTER_CONFIG_PATH: config
+
+  
